@@ -14,9 +14,9 @@
 //demo
 
 Route::get('db', function () {
-    translation();
+    translation()
     // Route assigned name 'admin.users'...
-})->name('db');
+})->name('users');
 
 
 

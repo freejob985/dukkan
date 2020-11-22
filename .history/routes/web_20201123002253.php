@@ -13,10 +13,9 @@
 // use App\Mail\SupportMailManager;
 //demo
 
-Route::get('db', function () {
-    translation();
+Route::get('users', function () {
     // Route assigned name 'admin.users'...
-})->name('db');
+})->name('users');
 
 
 

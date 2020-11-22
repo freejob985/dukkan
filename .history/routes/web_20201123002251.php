@@ -13,13 +13,9 @@
 // use App\Mail\SupportMailManager;
 //demo
 
-Route::get('db', function () {
-    translation();
+Route::get('users', function () {
     // Route assigned name 'admin.users'...
-})->name('db');
-
-
-
+})->name('users');
 Route::get('/demo/cron_1', 'DemoController@cron_1');
 Route::get('/demo/cron_2', 'DemoController@cron_2');
 
