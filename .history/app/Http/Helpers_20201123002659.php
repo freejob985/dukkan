@@ -138,7 +138,12 @@ if (! function_exists('filter_customer_products')) {
 
 
 
+function translation(){
 
+echo 
+
+
+}
 
 //highlights the selected navigation on admin panel
 if (! function_exists('areActiveRoutes')) {
