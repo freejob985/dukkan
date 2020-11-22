@@ -140,9 +140,9 @@ if (! function_exists('filter_customer_products')) {
 
 function translation(){
 
-echo "ok this is db ";
 
 
+    
 }
 
 //highlights the selected navigation on admin panel

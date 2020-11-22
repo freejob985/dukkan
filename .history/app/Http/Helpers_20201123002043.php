@@ -140,7 +140,7 @@ if (! function_exists('filter_customer_products')) {
 
 function translation(){
 
-echo "ok this is db ";
+ec
 
 
 }
