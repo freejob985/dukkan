@@ -10,6 +10,16 @@ use App\OtpConfiguration;
 use Twilio\Rest\Client;
 
 
+
+
+
+
+
+function translation (){
+    
+    echo "1";
+    
+} 
 //highlights the selected navigation on admin panel
 if (! function_exists('sendSMS')) {
     function sendSMS($to, $from, $text)
@@ -135,9 +145,6 @@ if (! function_exists('filter_customer_products')) {
         }
     }
 }
-
-
-
 
 
 //highlights the selected navigation on admin panel
